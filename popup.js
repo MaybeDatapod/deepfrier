@@ -23,7 +23,7 @@ chrome.tabs.executeScript(null, {file: "content.js"},function() {
 		txt.innerText = "This page cannot be deepfried";
 	} else {
 		txt.innerText = "Deepfried your page";
-		  var audio = new Audio('Pure QUality.mp3');
+		  var audio = new Audio('PureQuality.mp3');
 audio.play();
 	}
 });
