@@ -3,7 +3,7 @@ var txt = document.querySelector('#datapodtxt');
 function getCSS(selector){
 	var css = selector;
 if (css == "*") {
-	  css += "{-webkit-filter: saturate(" + Math.floor(Math.random() * 25) + 1 + ") contrast(" + (Math.floor(Math.random() * 201) + 100) + "%)  !important; filter: saturate(" + Math.floor(Math.random() * 27) + 3 + ") contrast(" + (Math.floor(Math.random() * 201) + 100) + "%) !important;}";
+	  css += "{-webkit-filter: saturate(" + Math.floor(Math.random() * 27) + 1 + ") contrast(" + (Math.floor(Math.random() * 201) + 100) + "%)  !important; filter: saturate(" + Math.floor(Math.random() * 27) + 3 + ") contrast(" + (Math.floor(Math.random() * 201) + 100) + "%) !important;}";
 }
 	return css;
 }
